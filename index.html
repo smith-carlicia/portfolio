@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Framework CDN's -->
+ 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link 
+    rel="preconnect" 
+    href="https://fonts.gstatic.com"
+  >
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" 
+    rel="stylesheet"
+  >
+  <!-- devs style sheet -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <h1 class="name-brand">Carlicia</h1>
+    <section class="theNav" id="nav">
+      <ul class="nav flex-column theNav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#aboutme">About Me </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- The about me section -->
+    <section class="container" id="aboutme">
+      <!-- creating row with class row from framework -->
+      <div class="row">
+        <!-- creating columns utilizing framework's pre-defined classes -->
+        <div class="col" id="pro-img">
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C4E03AQHlSIGXxvUVSg/profile-displayphoto-shrink_200_200/0/1579299268559?e=1613606400&v=beta&t=I6v52097UlqmkskL2M4jEXnyRV84TsbKgI3Kd3iFkXw"
+            class="rounded-circle"
+            alt="carly-pro-photo"
+            width="304"
+            height="236"
+          />
+        </div>
+        <!-- the second column -->
+        <div class="col" id="body-content">
+          <p>
+            My name is Carlicia but people call me Carly for short. I'm currently a Web 
+            Development student at Georgia Tech Coding Bootcamp. I have experience with HTML, 
+            CSS, R, Bootstrap, JavaScript, jQuery and AJAX. As a former sales and marketing 
+            intern, I will leverage my conceptually conscious brand management and marketing 
+            research skills to go above and beyond in effectively collaborating to create the 
+            perfect user friendly web application. A quick learner, I'm well organized and 
+            calm under pressure looking to offer my skills to an innovative team.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Create a replica of the wireframe's portfolio section - using all bootstrap no css -->
+    <section class="container" id="portfolio">
+      <h2 class="row">Portfolio</h2>
+
+ <!-- First Row of Projects -->
+      <div class="row">
+        <!-- Tracker Project -->
+        <div class="card col flip-card">
+          <div class="">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./assets/img/ISStracker-homepage-screenshot.png" class="card-img-top" alt="iss-tracker-app">            </div>
+              <div class="flip-card-back">
+                <h6>IssTracker</h6>
+                <p>Check out the current and five day forecast of the International Space Station passby times.</p>
+                <a href="https://smith-carlicia.github.io/group-22-project1/" class="card-link">
+                  <i class="fas fa-window-maximize"></i>
+                </a>
+                <a href="https://github.com/smith-carlicia/group-22-project1.git" class="card-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Burger Project -->
+        <div class="card col flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./assets/img/eat-da-burger-Screenshot-3.png" class="card-img-top" alt="burger-loggoer-app">
+            <div class="flip-card-back">
+              <h6>Burger</h6>
+              <p>Burger application any user can create and devour their own burger.</p>
+              <a href="https://floating-meadow-92330.herokuapp.com/" class="card-link">
+                <i class="fas fa-window-maximize"></i>
+              </a>
+              <a href="https://github.com/smith-carlicia/burger.git" class="card-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cyber Project -->
+        <div class="card col flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./assets/img/cyber-santa-homepage.png" class="card-img-top" alt="cyber-santa-app">            </div>
+            <div class="flip-card-back">
+              <h6>Cyber Santa</h6>
+              <p>Cyber Santa is an application any user can create, edit, delete and post their own personal or donations Christmas lists.</p>
+              <a href="https://project-2-cyber-santa.herokuapp.com" class="card-link">
+                <i class="fas fa-window-maximize"></i>
+              </a>
+              <a href="https://github.com/Adellis95/Project-2.git" class="card-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day Planner Project -->
+        <div class="card col flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./assets/img/Day-Planner-HW-Portfolio-Screenshot.png" class="card-img-top" alt="day-planner-app">            
+            <div class="flip-card-back">
+              <h6>Day Planner</h6>
+              <p>This codebase is a dynamic interactive employee daily planner. It displays the local time and day current to the users location via moment.js. The planner is organized by standard business hours time blocks. Each timeblock have their own row with a text area and save button. The save button is desgined to save the users input into the local storage and allow the users input to stay on the page after being refreshed. In addition to the timeblock, each timeblock is color coded based on the time whether the user's input have been submitted in the past(gray), present(red), and future(green).</p>
+              <a href="https://smith-carlicia.github.io/day-planner-2/" class="card-link">
+                <i class="fas fa-window-maximize"></i>
+              </a>
+              <a href="https://github.com/smith-carlicia/day-planner-2.git" class="card-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      <!--Next Row of Projects  -->
+      <div class="row ">
+        <!-- Weather Project -->
+        <div class="card col flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./assets/img/Weather-Dashboard-HW-Portfolio.png" class="card-img-top" alt="weather-dashboard-app">            
+            <div class="flip-card-back">
+              <h6>Weather Dashboard</h6>
+              <p>This Weather Dashboard application is primarily a dynamic codebase designed to provide users the current weather conditions and five day weather forecast of their choice. It's main wireframe is constructed out of hard coded Bootstrap components and empty divs. The weather information is parsed from the OpenWeather Current Forecast, Five Day Forecast and UV Index API's through the click of a search.</p>
+              <a href="https://smith-carlicia.github.io/weather-dashboard/" class="card-link">
+                <i class="fas fa-window-maximize"></i>
+              </a>
+              <a href="https://github.com/smith-carlicia/weather-dashboard.git" class="card-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Note Project -->
+      <div class="card col flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="./assets/img/note-taker-screenshot.png" class="card-img-top" alt="note-taker-app">            
+          </div>
+          <div class="flip-card-back">
+            <h6>Note Taker</h6>
+            <p>This Note Taker codebase is designed to allow users to post, save and delete notes at the click(or tap) of their fingertips.</p>
+            <a href="https://enigmatic-atoll-90656.herokuapp.com/" class="card-link">
+              <i class="fas fa-window-maximize"></i>
+            </a>
+            <a href="https://github.com/smith-carlicia/note-taker.git" class="card-link">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Readme Project -->
+      <div class="card col flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="./assets/img/Readme-generator-screenshot.png" class="card-img-top" alt="readme-generator-app">            
+          <div class="flip-card-back">
+            <h6>Readme Generator</h6>
+            <p>Readme.md Generator is constructed to generate a Sample Readme.md from node.js terminal command line. This codebase expedites and simplifies the ReadMe.md building process for users via prompting questions regarding their web application via the command line terminal and generate a new ReadMe.md file with their full codebase information.</p>
+            <a href="https://github.com/smith-carlicia/readme-generator.git" class="card-link">
+              <i class="fas fa-window-maximize"></i>
+            </a>
+            <a href="https://github.com/smith-carlicia/readme-generator.git" class="card-link">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Profile Project -->
+    <div class="card col flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./assets/img/Team-profile-generator-screenshot.png" class="card-img-top" alt="team-profile-generator-app">            
+        <div class="flip-card-back">
+          <h6>Team Profile Generator</h6>
+          <p>This codebase is built via ES6 and node.js to create an office team generator completely from the users local terminal. When the user run node a prompt will generate asking if the user want to create a new employee card or generate the current team roster.</p>
+          <a href="https://github.com/smith-carlicia/team-profile-generator.git" class="card-link">
+            <i class="fas fa-window-maximize"></i>
+          </a>
+          <a href="https://github.com/smith-carlicia/team-profile-generator.git" class="card-link">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+ 
+
+    </section>
+
+    <!-- Create contact section -->
+    <section class="container" id="contact">
+      <h2 class="row" id="contact">Contact</h2>
+
+<div class="row" id="theForm">
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Full Name</label>
+        <input type="name" class="form-control" id="fullName" placeholder="Full Name">
+      </div>
+      <div class="form-group">
+        <label for="reasonForContact">Click To Select One</label>
+        <select class="form-control" id="reasonForContact">
+          <option>Career Opportunities</option>
+          <option>Freelance</option>
+          <option>Code Review</option>
+          <option>Just Saying Hi</option>
+        
+        </select>
+      </div>
+    
+      <div class="form-group">
+        <label for="briefMessage">Brief Message</label>
+        <textarea class="form-control" id="briefMessage" rows="3"></textarea>
+        <input class="btn btn-primary" type="submit" id="submit" value="Submit">
+      </div>
+    </form>
+  
+
+  </div>
+  <div id="result"></div>
+</div>
+      <!-- Icons for Connecting -->
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="contact col-sm-3">
+          <a class="contact-email" >
+            <i class="far fa-envelope" target="__blank" onclick = "parent.location='mailto:smith.carlicia@gmail.com'"></i>
+          </a>
+        </div>
+        <div class="contact col-sm-3">
+          <a class="contact-github" target="__blank" href="https://github.com/smith-carlicia">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="contact col-sm-3">
+          <a class="contact-linkedin" target="__blank" href="https://www.linkedin.com/in/carlicia-smith-613194b4/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+    </section>
+
+
+    <!-- scripts only -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
