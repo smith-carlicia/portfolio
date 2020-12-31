@@ -1,0 +1,23 @@
+{
+  "name": "ms.smith",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smith-carlicia/Ms.Smith.git"
+  },
+  "author": "Ms. Carlicia Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smith-carlicia/Ms.Smith/issues"
+  },
+  "homepage": "https://github.com/smith-carlicia/Ms.Smith#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
