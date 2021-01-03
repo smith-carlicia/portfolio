@@ -15,6 +15,26 @@
   font-size: 6rem;
 }
 
+/* home section */
+
+html,body {
+  font-family: 'Lateef';
+  padding: 3em 2em;
+  font-size: 18px;
+  background: white;
+  color: black;
+}
+
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 { font-size: 3.5em; }
+h2 {
+  color: #888;
+  font-size: 2em;
+}
+
 /* #aboutme && #portfolio */
 
 #aboutme, #portfolio, #contact {
@@ -40,6 +60,7 @@ h2 {
 
 .nav-link {
   color: black;
+  
 }
 
 .nav-link:hover {
@@ -57,8 +78,8 @@ h2 {
 .flip-card {
     background-color: transparent;
     width: 100px;
-    height: 100px;
-    /* border: 1px solid #f1f1f1; */
+    height: 180px;
+    border: none;
     overflow: hidden;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
@@ -102,6 +123,14 @@ h2 {
     font-size: 12px;
   }
 
+  /* Card icons white */
+  .deployed-link {
+    color: white;
+  }
+
+  .github-link {
+    color: white;
+  }
 
   #theForm {
     margin-top: -8.5rem;
